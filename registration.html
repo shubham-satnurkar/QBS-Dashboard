@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/jpg" href="img/favicon.jpg">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <!-- Registration Form Page Section Start -->
+    <section class="reg-page">
+        <div class="container">
+            <div class="row">
+                <!-- Registration Form Start-->
+                <div class="col-md-12 col-lg-10 mx-auto reg-form">
+                    <form class="form p-4" onsubmit="return validateForm()"  novalidate action="index.html">
+                        <div class="form-group  text-center">
+                            <div class="cir">
+                                <img src="img/logo.png" alt="logo" class="img-fluid w-75">
+                            </div>
+                            <h6 class="logo-title">Navjeevan Bank Registration Form</h6>
+                        </div>
+                        <div class="form-row justify-content-center">
+                            <div class="form-group  col-md-6">
+                                <input type="text" class="form-control" name="fanme" id="fname" placeholder="First Name"
+                                    onblur="validate1()">
+                                <span id="error1" class="error"></span>
+                            </div>
+                            <div class="form-group  col-md-6">
+                                <input type="text" class="form-control" name="lanme" id="lname" placeholder="Last Name"
+                                    onblur="validate2()">
+                                <span id="error2" class="error"></span>
+                            </div>
+                            <div class="form-group  col-md-6">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email ID"
+                                    onblur="validate3()">
+                                <span id="error3" class="error"></span>
+                            </div>
+                            <div class="form-group  col-md-6">
+                                <input type="password" class="form-control" id="password" name="pass"
+                                    placeholder="password" onblur="validate4()">
+                                <span id="error4" class="error"></span>
+                            </div>
+                            <div class="form-group  col-md-6">
+                                <input type="password" class="form-control" id="cpass" name="cpass"
+                                    placeholder="Confirm Password" onblur="validate5()">
+                                <span id="error5" class="error"></span>
+                                <input type="checkbox" id="showp" name="showp" onchange="show()">
+                            </div>
+                            <div class="form-group  col-md-6">
+                                <input type="text" class="form-control" id="mobile" name="number"
+                                    placeholder="Mobile Number" onblur="validate6()">
+                                <span id="error6" class="error"></span>
+                            </div>
+                            <div class="form-group  col-md-4">
+                                <input type="submit"  class="btn btn-success " id="reg-btn" name="sub-btn"
+                                    value="Register">
+                            </div>
+                            <div class="form-group  col-md-4">
+                                <a href="index.html" class="btn btn-info">already have an account</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Registration Form End -->
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/validation.js"></script>
+</body>
+
+</html>

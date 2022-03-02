@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="17" viewBox="0 0 25 17">
+  <g id="Group_766" data-name="Group 766" transform="translate(-51 -200)">
+    <g id="Rectangle_1112" data-name="Rectangle 1112" transform="translate(51 200)" fill="#fff" stroke="#000" stroke-width="1">
+      <rect width="25" height="8" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="24" height="7" rx="2.5" fill="none"/>
+    </g>
+    <g id="Rectangle_1113" data-name="Rectangle 1113" transform="translate(57 204)" fill="#fff" stroke="#000" stroke-width="1">
+      <path d="M0,0H14a0,0,0,0,1,0,0V11a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V0A0,0,0,0,1,0,0Z" stroke="none"/>
+      <path d="M.5.5h13a0,0,0,0,1,0,0V11A1.5,1.5,0,0,1,12,12.5H2A1.5,1.5,0,0,1,.5,11V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+    </g>
+    <line id="Line_214" data-name="Line 214" x2="17" transform="translate(55.5 204.5)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>

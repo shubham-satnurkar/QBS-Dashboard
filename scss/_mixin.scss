@@ -1,0 +1,33 @@
+@import 'variables';
+
+@mixin flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin btn {
+    font-size: .875rem;
+    font-family: $opensans-bold;
+    width: 100%;
+    padding:13px 0;
+    border-radius: 25px;
+    text-transform: uppercase;
+    box-shadow: 0 3px 5px rgba($black, .3);
+
+   &:focus{box-shadow: none;}    
+}
+.btn{
+    box-shadow: 0 0 5px rgba($black, .2);
+    &:focus{box-shadow: none;} 
+}
+.form-control{
+    &:focus{box-shadow: none;}  
+}
+.credit{color: #277918!important;font-family: $opensans-semibold!important;}
+.debit{color:#C72D2D!important;font-family: $opensans-semibold!important;}
+
+.modal-backdrop.show{
+    opacity: .70;background-color:rgba($btnbg-color, 1)
+}

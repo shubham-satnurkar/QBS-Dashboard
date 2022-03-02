@@ -1,0 +1,61 @@
+<svg id="Group_756" data-name="Group 756" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="232.593" height="97.03" viewBox="0 0 232.593 97.03">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-opacity="0.212"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Rectangle_708" data-name="Rectangle 708" transform="translate(7.092)" fill="#aed2ef" stroke="rgba(69,119,159,0.62)" stroke-width="1">
+    <path d="M5,0h.376a5,5,0,0,1,5,5V41.786a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" stroke="none"/>
+    <path d="M5,.5h.376A4.5,4.5,0,0,1,9.876,5V41.286a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V5A4.5,4.5,0,0,1,5,.5Z" fill="none"/>
+  </g>
+  <g id="Rectangle_717" data-name="Rectangle 717" transform="translate(110.851)" fill="#aed2ef" stroke="rgba(69,119,159,0.62)" stroke-width="1">
+    <path d="M5,0h.376a5,5,0,0,1,5,5V41.786a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" stroke="none"/>
+    <path d="M5,.5h.376A4.5,4.5,0,0,1,9.876,5V41.286a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V5A4.5,4.5,0,0,1,5,.5Z" fill="none"/>
+  </g>
+  <g id="Rectangle_711" data-name="Rectangle 711" transform="translate(41.679)" fill="#aed2ef" stroke="rgba(69,119,159,0.62)" stroke-width="1">
+    <path d="M5,0h.376a5,5,0,0,1,5,5V41.786a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" stroke="none"/>
+    <path d="M5,.5h.376A4.5,4.5,0,0,1,9.876,5V41.286a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V5A4.5,4.5,0,0,1,5,.5Z" fill="none"/>
+  </g>
+  <g id="Rectangle_716" data-name="Rectangle 716" transform="translate(145.438)" fill="#aed2ef" stroke="rgba(69,119,159,0.62)" stroke-width="1">
+    <path d="M5,0h.376a5,5,0,0,1,5,5V41.786a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" stroke="none"/>
+    <path d="M5,.5h.376A4.5,4.5,0,0,1,9.876,5V41.286a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V5A4.5,4.5,0,0,1,5,.5Z" fill="none"/>
+  </g>
+  <g id="Rectangle_719" data-name="Rectangle 719" transform="translate(214.61 22.025)" fill="#aed2ef" stroke="rgba(69,119,159,0.62)" stroke-width="1">
+    <path d="M5,0h.376a5,5,0,0,1,5,5V19.761a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" stroke="none"/>
+    <path d="M5,.5h.376A4.5,4.5,0,0,1,9.876,5V19.261a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V5A4.5,4.5,0,0,1,5,.5Z" fill="none"/>
+  </g>
+  <g id="Rectangle_1070" data-name="Rectangle 1070" transform="translate(180.024 30.202)" fill="#aed2ef" stroke="rgba(69,119,159,0.62)" stroke-width="1">
+    <path d="M5,0h.376a5,5,0,0,1,5,5v6.584a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" stroke="none"/>
+    <path d="M5,.5h.376A4.5,4.5,0,0,1,9.876,5v6.084a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V5A4.5,4.5,0,0,1,5,.5Z" fill="none"/>
+  </g>
+  <g id="Rectangle_712" data-name="Rectangle 712" transform="translate(76.265 26.113)" fill="#aed2ef" stroke="rgba(69,119,159,0.62)" stroke-width="1">
+    <path d="M5,0h.376a5,5,0,0,1,5,5V15.672a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V5A5,5,0,0,1,5,0Z" stroke="none"/>
+    <path d="M5,.5h.376A4.5,4.5,0,0,1,9.876,5V15.172a0,0,0,0,1,0,0H.5a0,0,0,0,1,0,0V5A4.5,4.5,0,0,1,5,.5Z" fill="none"/>
+  </g>
+  <g id="Rectangle_709" data-name="Rectangle 709" transform="translate(24.386 41.786)" fill="rgba(233,132,33,0.35)" stroke="#ef9f51" stroke-width="1">
+    <path d="M0,0H10.376a0,0,0,0,1,0,0V50.245a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" stroke="none"/>
+    <path d="M.5.5H9.876a0,0,0,0,1,0,0V50.245a4.5,4.5,0,0,1-4.5,4.5H5a4.5,4.5,0,0,1-4.5-4.5V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+  </g>
+  <g id="Rectangle_718" data-name="Rectangle 718" transform="translate(128.144 41.786)" fill="rgba(233,132,33,0.35)" stroke="#ef9f51" stroke-width="1">
+    <path d="M0,0H10.376a0,0,0,0,1,0,0V50.245a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" stroke="none"/>
+    <path d="M.5.5H9.876a0,0,0,0,1,0,0V50.245a4.5,4.5,0,0,1-4.5,4.5H5a4.5,4.5,0,0,1-4.5-4.5V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+  </g>
+  <g id="Rectangle_710" data-name="Rectangle 710" transform="translate(58.972 41.786)" fill="rgba(233,132,33,0.35)" stroke="#ef9f51" stroke-width="1">
+    <path d="M0,0H10.376a0,0,0,0,1,0,0V33.159a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" stroke="none"/>
+    <path d="M.5.5H9.876a0,0,0,0,1,0,0V33.159a4.5,4.5,0,0,1-4.5,4.5H5a4.5,4.5,0,0,1-4.5-4.5V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+  </g>
+  <g id="Rectangle_715" data-name="Rectangle 715" transform="translate(162.731 41.786)" fill="rgba(233,132,33,0.35)" stroke="#ef9f51" stroke-width="1">
+    <path d="M0,0H10.376a0,0,0,0,1,0,0V18.168a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" stroke="none"/>
+    <path d="M.5.5H9.876a0,0,0,0,1,0,0V18.168a4.5,4.5,0,0,1-4.5,4.5H5a4.5,4.5,0,0,1-4.5-4.5V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+  </g>
+  <g id="Rectangle_713" data-name="Rectangle 713" transform="translate(93.558 41.786)" fill="rgba(233,132,33,0.35)" stroke="#ef9f51" stroke-width="1">
+    <path d="M0,0H10.376a0,0,0,0,1,0,0V18.168a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" stroke="none"/>
+    <path d="M.5.5H9.876a0,0,0,0,1,0,0V18.168a4.5,4.5,0,0,1-4.5,4.5H5a4.5,4.5,0,0,1-4.5-4.5V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+  </g>
+  <g id="Rectangle_714" data-name="Rectangle 714" transform="translate(197.317 41.786)" fill="rgba(233,132,33,0.35)" stroke="#ef9f51" stroke-width="1">
+    <path d="M0,0H10.376a0,0,0,0,1,0,0V18.168a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" stroke="none"/>
+    <path d="M.5.5H9.876a0,0,0,0,1,0,0V18.168a4.5,4.5,0,0,1-4.5,4.5H5a4.5,4.5,0,0,1-4.5-4.5V.5A0,0,0,0,1,.5.5Z" fill="none"/>
+  </g>
+  <rect id="Rectangle_1071" data-name="Rectangle 1071" width="232.593" height="20.442" transform="translate(0 41.603)" opacity="0.562" fill="url(#linear-gradient)"/>
+</svg>

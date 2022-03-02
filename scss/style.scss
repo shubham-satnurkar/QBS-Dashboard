@@ -1,0 +1,600 @@
+@import 'mixin';
+@import 'variables';
+
+// Login form
+.login-page, .reg-page{
+    background: linear-gradient(rgba(9, 52, 91, .70), rgba(9, 52, 91, .70)), url(../img/bg-img.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: top;
+    padding: 80px 0;
+
+    // Headings and Card Section
+    .headings{
+        position: relative;
+        .main-heading{
+            font-size: 4.5rem; display: flex;flex-direction: column;
+            color: $white; font-family: $opensans-light;
+            .color-heading{
+                color: $heading-color; font-family: $opensans-bold;
+            }
+        }
+        .sub-heading{
+            font-size: 1.375rem; font-family: $opensans-bold;
+            color: $white;
+        }
+        .cards{
+            margin-top: 160px;
+            .card-group{
+                border-radius: 10px;
+                background: linear-gradient(to right, $heading-color 10%, $card-box-color 1);
+                .card{
+                    border: none; background-color: transparent;
+                    padding: 30px 0;
+                    .card-body{
+                        padding: 0px 50px;
+                        .card-title{
+                            color: $white; font-size: 1rem;
+                            font-family: $opensans-semibold;
+                        }
+                        .card-text{
+                            color: $white; font-size: .7rem;
+                            font-family: $opensans-reg;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    // Login Form Section
+    .login-form , .reg-form{
+
+        .form{
+            background-color: $white; border-radius: 11px;
+
+            .cir{
+                width: 80px;height: 80px; box-shadow: 0px 0px 5px rgba(0,0,0,.4);
+                border-radius: 50%;
+                @include flexbox; background-color: $white;
+                margin: -60px auto 20px;
+            }
+            .logo-title{
+                font-size: 1.125rem; color: $black; 
+                font-family: $opensans-light
+            }
+            .form-group{
+                margin-bottom: 16px;
+                .error{color: #f00;margin: 8px 0 0 20px;font-family: $opensans-med;font-size: .75rem;display: block;}
+                .form-control{
+                    border-radius: 24px; padding:24px 20px;
+                    font-family: $opensans-reg; font-size: .875rem;
+                   
+                    box-shadow: 0 0 5px rgba($black, .2);
+                    &::placeholder{color: $black;}
+                    &:focus{box-shadow: 0 0 5px  $heading-color;}
+                }
+                #showp{
+                    position: absolute;top: 15px;right: 30px;
+                    border: none; 
+                    &::before{
+                        content: "\f33e";position: absolute;top: 0;
+                        display: inline-block;
+                        font-family: bootstrap-icons !important;
+                        font-style: normal;
+                        font-weight: normal !important;
+                        font-variant: normal;
+                        text-transform: none;
+                        line-height: 1;
+                        vertical-align: -0.125em;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;background-color: #fff;
+                        padding: 5px;
+                    }
+                    
+                }
+                .for-pass{
+                    font-size: .875rem; font-family: $opensans-reg;
+                    color: $black;
+                }
+                &.btn-proceed{
+                    margin-bottom: 20px;
+                    .btn-primary{
+                        @include btn; border-color: $btnbg-color;
+                        background-color: $btnbg-color;
+                        color: $white;
+                    }
+                }
+                &.new-user{
+                    background:linear-gradient(rgba($black, .1), rgba($white, .1)) ;
+                    padding: 30px 20px;
+                    .btn-outline-danger{
+                        @include btn;
+                        border-color: $btn-txt-color;
+                        color: $btn-txt-color;
+                        &:hover{
+                            background-color: $btn-txt-color;
+                            color: $white;
+                        }
+                    }
+                }  
+                .btn-info, .btn-success{
+                    @include btn;
+                }              
+            }
+        }
+    }
+    .reg-form{
+        .form{
+            .cir{
+                width: 100px;height: 100px;
+                margin: -70px auto 20px;
+            }
+            .logo-title{
+                font-size: 1.25rem;
+            }
+            .form-group{
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+
+// Dashboard Page
+
+// Header Section Start
+.header{
+    .navbar{ padding: 0 0 0 1rem ;
+        .navbar-brand{
+            @include flexbox; padding: 10px 0 0;
+            .img-fluid{width: 75px;}
+            .logo-txt{
+                font-size: 1.5rem;
+                font-family: $opensans-light;
+                margin-left: 1rem;
+                color: $black;
+            }
+        }
+        .navbar-toggler{
+            background-color: $heading-color;
+        }
+
+        .navbar-nav{
+            display: flex; align-items: center;
+            .nav-item{
+                padding: 10px 20px; position: relative;
+                &:first-child{
+                    padding-right: 10px;
+                    .nav-link{font-family: $opensans-reg;}
+                }
+                &:nth-child(2){
+                    background-color: #F0E9E9;
+                    .bi{color: $btnbg-color;filter: drop-shadow(0 5px 3px rgba($btnbg-color, .3))}
+                }   
+                &:nth-child(3){
+                    background-color: rgba($btnbg-color, .2);
+                }
+                &:last-child{
+                    background-color:$btn-txt-color;
+                    .bi{color: $white;}
+                    #count{
+                        position: absolute; right: 16px;
+                        font-size: 10px; top: 16px;
+                        width: 20px;height: 20px;
+                        background-color: #FF4040;
+                        border-radius: 50%;
+                        @include flexbox;
+                        border: 1px solid $white;
+                        color: $white;
+                        font-family: $opensans-semibold;
+                    }
+                }
+                .nav-link{
+                    color: $black; position: relative;
+                    display: block;
+                    padding: 15px 16px;
+                    font-size: 1rem;
+                    font-family: $opensans-semibold;
+                    display: flex ;align-items: center;
+                    .bi{
+                        font-size: 1.375rem; margin: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+// Header Section End
+
+// Dashboard Content Section Start
+.dashboard{
+    &__content{
+        // Side Bar
+        .sidebar{
+            height: 100vh; overflow: auto;position: relative;
+            .nav{ 
+                padding: 30px 20px;
+
+                .nav-link{
+                    border-top: 1px dashed rgba($border-color, .56);
+                    padding: 20px; font-size: .875rem;
+                    font-family: $opensans-semibold; color: $black;
+                    text-transform: uppercase; margin-left: 3px;
+                    
+                    &:nth-child(4){.icons{padding-right: 20px}margin-top: 20px;}
+                    &:nth-child(5){.icons{padding-right: 24px;}}
+                    &:nth-child(6){.icons{padding-right: 24px;}}
+                    &:nth-child(7){.icons{padding-right: 15px;}}
+
+                    &.active{background-color:$active-color;}
+                }
+
+                .dashboard{
+                    border: none; background-color: $active-color;
+                    border-radius: 30px;padding: 15px 25px;
+                    margin-bottom: 20px;
+                    .icons{margin-right: 20px;}
+                }
+                .summary, .products{
+                    background-color: transparent;border: none;
+                    padding: 15px 20px;
+                    display: flex;display: block; 
+                    position: relative;border-left: 1px solid $black;
+                    border-radius: 0; margin-left: 35px;
+                    span{margin-left: 15px;}
+
+                    &::before{
+                        content: ""; position: absolute;left: 0;
+                        top: 25px;
+                        width: 25px;
+                        height: 1px;
+                        background-color: $black;
+                    }
+                }
+                .products{padding-bottom: 0;}
+
+            }
+
+            .copyright{
+                position: absolute;bottom: 35px;left: 40px;
+                .copy-txt{
+                    font-size: 1rem; color: rgba($black, .4);
+                    font-family: $opensans-Extrabold;
+                    span{font-family: $opensans-reg;}
+                }
+            }
+        }
+
+        // Main bar 
+        .mainbar{
+            height: 100vh; border-radius: 27px 0 0;
+            background-color: #EDF2F5;
+            overflow: auto;
+            &::-webkit-scrollbar{display: none;}
+            .tab-content{
+                .tab-pane{
+                    // ATM Section Start
+                    .card{
+                        border-radius: 15px;
+                        .card-header{
+                            background-color: transparent;border: 0;
+                            padding: 1rem 1.25rem 0;
+                            .card-title{
+                                font-size: 1.25rem;font-family: $opensans-bold;
+                                color: $card-title-color;
+                            }
+                            .dropdown{
+                                .btn{
+                                    padding: 4px 15px;font-size: .75rem;
+                                    font-family: $opensans-semibold;
+                                    border-radius: 20px; color: $black;
+                                    background-color: #FFE5CB;
+                                    display: flex; align-items: center;
+                                    border: .8px solid #FFE5CB;
+                                    box-shadow: 0 0 3px rgba($black, .2);
+                                    &::after{margin-left: 10px;}
+                                }
+                                .dropdown-menu{
+                                    left: -90px!important;
+                                }
+                            }
+                        }
+
+                        .graph-content{
+                            @include flexbox;
+                            .card-body{
+                                .card-text{
+                                    font-size: .78rem;
+                                    font-family: $opensans-semibold;
+                                    margin-bottom: 10px;
+                                }
+                                .card-count{
+                                    font-size: 1.25rem;font-family: $opensans-semibold;
+                                }
+                                .top{border-bottom: 1px dashed rgba($border-color, .56);margin-bottom: 1rem;padding-bottom: 8px;}
+                                .bot{
+                                    .card-count{color: $card-count-color;}
+                                }
+                            }
+                        }
+                    }
+                    // ATM Section End
+
+                    // IMPS Section Start
+                    .top-head{
+                        border-bottom: 1px solid rgba($border-color,.4);
+                        padding-bottom: 12px;
+                        .nav{ 
+                            display: flex; align-items: center;
+                            .nav-link{
+                                color: $black; font-family: $opensans-semibold;
+                                font-size: .875rem;
+                            }
+                            .btn{
+                                padding:6px 16px; border-radius: 20px;
+                                border: 1px solid $btn-txt-color;
+                                color: $black; font-family: $opensans-semibold;
+                                font-size: .875rem; 
+                                &:hover{color: $white;background-color: $btn-txt-color;}
+                                &:focus{box-shadow: none;}
+                            }
+                            &__items{
+                               .nav-link{padding: 8px 20px;}
+                            }
+                        }
+                    }
+
+                    // Account Details
+                    .account-details{
+                        // .img-fluid{width: 4%;}
+                        .imps-heading{
+                            margin: 0 0 0 10px;font-family: $opensans-bold;color: $card-title-color;
+                            font-size: 1rem;
+                        }
+                        .detail-box{
+                            background-color: $white;
+                            box-shadow: 0 3px 5px rgba(78,78,209,.3);
+                            .acc-heading{
+                                font-size: .8rem;font-family: $opensans-semibold;
+                            }
+                            .account{
+                                @include flexbox; justify-content: space-between;
+                                .btn{
+                                    padding: 2px 16px;font-size: .75rem;
+                                    border-radius: 20px; border: 1px solid $black;
+                                    font-family: $opensans-bold;
+                                    &:hover{background-color: $btnbg-color;color: $white;}
+                                }
+                                .head{
+                                    font-size: .875rem;font-family: $opensans-reg;
+                                    .rupee-heading{
+                                        font-size: 1rem;font-family: $opensans-bold;
+                                        color: $btnbg-color;
+                                        margin-left: 10px;
+                                    }
+                                }
+                            }
+                            .input-group{
+                                gap: 20px; width: 80%;
+                                .form-control{
+                                    border-radius: 25px;padding: 20px 16px;
+                                    color: $black;font-size: .75rem;
+                                    font-family: $opensans-reg;
+                                    &::placeholder{color: $black;}
+                                }
+                            }
+                            .sec2{
+                                @include flexbox; justify-content: flex-end;
+                                .btn{
+                                    background-color: $btnbg-color; color: $white;
+                                    font-size: .75rem; font-family: $opensans-semibold;
+                                    padding: 6px 20px;border-radius: 25px;
+                                    margin: 0 20PX;
+                                }
+                                
+                            }
+                        }
+                        
+
+                        // Transactions
+                        .transactions{
+                            border-top: 1px solid rgba($border-color, .4);
+                            .values{ 
+                                border-right: 1px solid rgba($border-color, .4);
+                                padding: 20px 0;
+                                @include flexbox; flex-wrap: wrap;
+                                .trans-heading{
+                                    font-size: .875rem;font-family: $opensans-reg;
+                                    margin-right: 20px;
+                                }
+                                .rupee-heading{
+                                    font-size: 1.125rem;font-family: $opensans-bold;
+                                }
+                                &.inward{
+                                    .rupee-heading{color: #09335B;}
+                                }
+                                &.outward{
+                                    .rupee-heading{color: #277918;}
+                                }
+                                &.penalty{
+                                    .rupee-heading{color: #C72D2D;}
+                                    border-right: 0;
+                                }
+                            }
+
+                        }
+                    }
+                    .acc-heading{margin-bottom: 0;}
+                    // Transaction Summary Table
+                    .summary-table{
+                        .table{
+                            tr{
+                                border-bottom: 1px dashed #abc4e6;
+                            }
+                            thead{
+                                tr{
+                                    border: none;
+                                    th{padding: 2rem .75rem;color: rgba($black, .6);}
+                                }
+                            }
+                            th,td{
+                                font-size: .875rem;
+                                color: $black;
+                                font-family: $opensans-reg;
+                                &td:last-child{padding-left: 40px}
+                                border: none;
+                            }
+                            // td{border-bottom: 1px dashed #abc4e6;border-top: 1px dashed #abc4e6;}
+                            // th{
+                            //     border: none;border-bottom:1px dashed #abc4e6; 
+                            // }
+                            .btn-info{
+                                @include btn;padding: 5px 30px;
+                                width: auto;float: right;margin-right: 40px;
+                                background-color:#D2E5F7;
+                                color: $black;border: 1px solid rgba($btnbg-color, .3);
+                            }
+                        }
+                        .report-heading{
+                            font-size: 1rem; color: $btnbg-color;
+                            font-family: $opensans-reg;
+                        }
+                        .input-group{
+                            width: 50%; gap: 10px; padding-right: 30px;
+                            .form-control{
+                                font-size: .75rem; font-family: $opensans-reg;
+                                border-radius: 25px; height: 40px;
+                            }
+                        }
+                    }
+
+                    // IMPS Section End
+
+                    // IMPS product page start
+                    .product{
+                        .report{
+                            width: 70%;text-align: right;
+                            .btn-info{
+                                background-color: $btnbg-color; color: $white;
+                                font-size: .75rem; font-family: $opensans-semibold;
+                                padding: 6px 20px;border-radius: 25px;
+                                margin: 0 20PX;
+                            }
+                        }
+                    }
+                    // IMPS product page end
+                }
+
+
+                .modal{
+                    top: 75px;left: unset; 
+                    &#accNoChange{
+                        .modal-title{font-family: $opensans-semibold;}
+                    }
+
+                    &#NDCModification{
+                        left: 0;
+                        .modal-dialog{
+                            .modal-content{
+                                .modal-title{font-family: $opensans-semibold;}
+                            }
+                        }   
+                    }
+                    .modal-dialog{
+                        .modal-content{
+                            border-radius: 15px; margin-left: 73px;
+                            &::after{
+                                content: "";position: absolute;
+                                width: 100%;height: 10px;
+                                background-color: $heading-color;bottom: 0;
+                                border-radius:0 0 20px 20px;
+                            }
+                        }
+                    }
+                    &-title{
+                        font-size: 1rem;color: $black;
+                        font-family: $opensans-reg;
+                        padding-left: 20px;
+                    }
+                    
+                    &-body{
+                        // Request button Modal
+                        .headings{
+                            padding:0 20px; background : linear-gradient(rgba($black, .03), rgba($white, .4));
+                            
+                            .modal-heading{
+                                font-size: .875rem;font-family: $opensans-bold;
+                                padding: 25px 0; margin-bottom: 0; cursor: pointer;
+                                &:first-child{border-bottom: 1px solid rgba($black, .5);}
+                            }
+                        }
+                        // Account No. change request modalform
+                        .form{
+                            background : linear-gradient(rgba($black, .03), rgba($white, .4));
+                            padding: 25px 50px;
+                            .form-group{
+                                margin-bottom: 20px;
+                                .form-control{
+                                    height: 45px; border-radius: 30px;
+                                    padding: 5px 20px;
+                                }
+
+                                &.btns{
+                                    margin-top: 30px; 
+                                    .btn{
+                                        @include btn; width: initial;padding: 8px 25px;
+                                        margin: 0 px; text-transform: capitalize;
+                                        &.btn-primary{background-color: $btnbg-color;}
+                                    }
+                                }
+                            }
+                        }
+
+                        // NDC Modification Modal
+                        .ndc-data{
+                            background : linear-gradient(rgba($black, .03), rgba($white, .4));
+                            padding: 20px; align-items: center;
+                            .ndc-heading{
+                                font-size: 1rem; font-family: $opensans-semibold;
+                            }
+                            .input-group{
+                                text-align: center; gap: 50px;
+                                label{font-size: 1rem;font-family: $opensans-semibold;}
+                                .form-control{
+                                    border-radius: 30px;;color: $black;font-size: .75rem;
+                                    font-family: $opensans-semibold;height: 45px;
+                                    padding: 5px 20px;
+                                }
+                                .btn{
+                                    @include btn; width: auto;
+                                    padding: 10px 35px;
+                                }
+                            }
+                            .current-acc{
+                                .input-group{
+                                    @include flexbox; justify-content: flex-start;
+                                    .form-group{
+                                        @include flexbox; flex-direction: row;
+                                        .form-control{
+                                            width: auto; margin-left: 10px;
+                                        }
+                                    }
+                                }
+                            }
+                            .current-acc-btn{
+                                .btn{
+                                    @include btn; width: initial;padding: 8px 25px;
+                                    margin: 0 px; text-transform: capitalize;
+                                    &.btn-primary{background-color: $btnbg-color;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// Dashboard Content Section End

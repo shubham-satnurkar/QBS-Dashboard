@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.959" height="18.264" viewBox="0 0 28.959 18.264">
+  <g id="Group_770" data-name="Group 770" transform="translate(-48.693 -371)">
+    <g id="Group_769" data-name="Group 769" transform="translate(-185.39 332.76)">
+      <path id="Path_8290" data-name="Path 8290" d="M248.707,43.42v11.8a2.023,2.023,0,0,0-1.947-1.472.387.387,0,0,0-.082.006,1.65,1.65,0,0,0-.481.076H241.68v3.983h21.169a2.711,2.711,0,0,0,2.71-2.71V43.42ZM241.85,57.732a.09.09,0,0,1-.088-.088V53.919h5v-.088a1.95,1.95,0,0,1,0,3.9Z" transform="translate(-2.934 -1.728)" fill="none"/>
+      <path id="Path_8291" data-name="Path 8291" d="M269.057,43.642v11.52a2.631,2.631,0,0,1-2.628,2.628H250.34a1.951,1.951,0,0,0,1.947-1.953V43.56h16.681A.085.085,0,0,1,269.057,43.642Z" transform="translate(-6.515 -1.786)" fill="none" stroke="#040405" stroke-width="1"/>
+      <g id="Ellipse_486" data-name="Ellipse 486" transform="translate(238.828 52.021)">
+        <path id="Path_8292" data-name="Path 8292" d="M251.795,63.059a2.027,2.027,0,0,1-1.466,1.953,1.972,1.972,0,0,1-1.126,0h.563a1.95,1.95,0,0,0,0-3.9V61.2h-.815a1.83,1.83,0,0,1,.252-.088,1.65,1.65,0,0,1,.481-.076.387.387,0,0,1,.082-.006,2.023,2.023,0,0,1,1.947,1.472A1.94,1.94,0,0,1,251.795,63.059Z" transform="translate(-244.768 -61.03)" fill="none"/>
+        <path id="Path_8293" data-name="Path 8293" d="M248.765,63.117a1.951,1.951,0,0,1-1.947,1.953h-4.909a.09.09,0,0,1-.088-.088V61.17h5A1.95,1.95,0,0,1,248.765,63.117Z" transform="translate(-241.82 -61.088)" fill="none" stroke="#040405" stroke-width="1"/>
+      </g>
+      <rect id="Rectangle_1114" data-name="Rectangle 1114" width="0.082" height="0.082" transform="translate(235.286 44.934)" fill="none"/>
+      <path id="Path_8294" data-name="Path 8294" d="M243.639,39.24c-.194,0-9.056.076-9.056.076V51.977l8.974.044a2.37,2.37,0,0,1,2.215,1.472s-.1-12.083-.1-12.23A2.025,2.025,0,0,0,243.639,39.24Z" transform="translate(0 0)" fill="none" stroke="#040405" stroke-width="1"/>
+      <line id="Line_215" data-name="Line 215" x2="10.336" transform="translate(249.323 50.49)" fill="none" stroke="#161615" stroke-miterlimit="10" stroke-width="1"/>
+      <line id="Line_216" data-name="Line 216" x2="7.005" transform="translate(252.653 47.745)" fill="none" stroke="#161615" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+    <text id="_" data-name="₹" transform="translate(52 382)" font-size="10" font-family="SegoeUI, Segoe UI" letter-spacing="0.008em"><tspan x="0" y="0">₹</tspan></text>
+  </g>
+</svg>
